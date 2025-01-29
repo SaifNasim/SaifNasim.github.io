@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+/* Projects */
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
